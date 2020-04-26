@@ -1,4 +1,4 @@
-# MyI18nProject
+# angular-i18n-demo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
 

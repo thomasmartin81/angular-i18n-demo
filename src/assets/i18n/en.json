@@ -1,0 +1,9 @@
+{
+  "app": {
+    "title": "Hello World"
+  },
+  "componentA": {
+    "sayHello": "Hello {{name}}",
+    "question": "How is it going?"
+  }
+}

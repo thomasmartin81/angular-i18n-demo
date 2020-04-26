@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'my-i18n-project'`, () => {
+  it(`should have as title 'angular-i18n-demo'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('my-i18n-project');
+    expect(app.title).toEqual('angular-i18n-demo');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('my-i18n-project app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('angular-i18n-demo app is running!');
   });
 });

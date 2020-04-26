@@ -1,0 +1,9 @@
+{
+  "app": {
+    "title": "Hallo Welt"
+  },
+  "componentA": {
+    "sayHello": "Hallo {{name}}",
+    "question": "Wie geht es dir?"
+  }
+}
